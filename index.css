@@ -33,6 +33,15 @@
     margin-top: 15px;
 }
 
+.sign-up {
+  background-color: rgb(26, 93, 170);
+  color: white;
+  margin: 60px;
+  padding: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 button {
   background-color: #388246;
 }
