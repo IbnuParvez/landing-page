@@ -1,4 +1,39 @@
+#root{
+  font: Roboto, sans-serif;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 20px;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
 
 .testimonial-section {
     background-color: #f7f7f7; /* Light gray background for the section */
@@ -38,12 +73,30 @@
   color: white;
   margin: 60px;
   padding: 60px;
+  border-radius: 7px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
+
+.sign-up p {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: start;
+} 
+
 button {
   background-color: #388246;
+  border-radius: 8px; /* Adds 8px rounded corners */ /* Optional: Removes default border for cleaner look */
+  padding: 10px 20px; /* Adds padding for better click area */
+}
+
+.special {
+  background-color: rgb(26, 93, 170);
+  color: white;
+  padding: 10px;
+  border-color: #f7f7f7;
+  border-radius: 12px; /* More rounded for emphasis */
 }
 
 footer {
