@@ -1,0 +1,45 @@
+
+
+.testimonial-section {
+    background-color: #f7f7f7; /* Light gray background for the section */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-quote {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.25rem; /* Large, easy-to-read font size */
+    line-height: 1.5;
+    color: #555; /* Medium gray color for text */
+    font-style: italic; /* Italic style for the quote */
+    border-left: none; /* Remove default browser blockquote border */
+    padding: 0;
+}
+
+.testimonial-quote p {
+    margin: 0 0 15px 0; /* Margin below the quote text */
+}
+
+.testimonial-quote cite {
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    color: black; /* Darker gray for the author */
+    font-style: normal; /* Non-italic style for the author */
+    margin-top: 15px;
+}
+
+button {
+  background-color: #388246;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
